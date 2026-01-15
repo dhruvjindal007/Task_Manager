@@ -57,6 +57,10 @@ INSTALLED_APPS = [
     
     'drf_yasg',
 ]
+CORS_ALLOWED_ORIGINS = [
+    "https://task-managerr-psi.vercel.app",
+]
+CORS_ALLOW_CREDENTIALS = True
 
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
